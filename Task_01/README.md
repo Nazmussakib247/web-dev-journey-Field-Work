@@ -19,7 +19,7 @@ The task was to build the complete portfolio layout using **only HTML**, without
 ---
 
 ## Demo Screenshot
-![Demo Portfolio Screenshot](images/demo-portfolio.jpg)
+![Demo Portfolio Screenshot](images/demo-portfolio.jpeg)
 
 ---
 
