@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#" method="post">
+        <!--Name-->
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name"
+        placeholder="Enter your full name" required>
+        <br><br>
+        <!-- Email-->
+         <label for="email">Email</label> <br>
+         <input type="email" id="email" name="email"
+            placeholder="Enter Valid email address" required>
+            <br> <br>
+    
+        <!--DOB-->
+        <label for="dob"> Date of birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <br> <br>
+
+
+        <!--Course drop down-->
+        <label for="course"> Choose Course</label> <br>
+        <select id="course" name="course" required>
+            <option value="">Choose one course</option>
+            <option value="html">HTML Foundamentals</option>
+            <option value="css"> CSS Foundamentals</option>
+            <option value="Js"> JavaScript Foundamentals</option>
+        </select>
+        <br> <br>
+        <p> Prefered Course:</p>
+        <input type="checkbox" id="web" name="interest" value="web">
+        <label for="web"> Web Design</label> <br>
+
+        <input type="checkbox" id="app" name="interest" value="app">
+        <label for="app">App development</label><br>
+
+        <input type="checkbox" id="data" name="interest" value="data">
+        <label for="data">Data Science</label> 
+        <br><br>
+
+<!--Gender-->
+<p>Choose Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Male</label> <br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> female</label> <br>
+
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others"> others</label> 
+        <br> <br>
+
+
+        <!--Subtmit button-->
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
