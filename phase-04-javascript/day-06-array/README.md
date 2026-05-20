@@ -8,5 +8,5 @@
 4. Find the largest number in an array.
 5. Create a simple student array object and display each student's name.
 Example:
-[ { name: "Rahim", age: 20 },
- { name: "Karim", age: 22 } ]
+        [ { name: "Rahim", age: 20 },
+        { name: "Karim", age: 22 } ]
